@@ -1,4 +1,4 @@
-def sort012(arr):
+def sort(arr):
     low = 0
     mid = 0
     high = len(arr) - 1
@@ -18,30 +18,30 @@ def sort012(arr):
 
 
 arr = [0, 1, 2, 1, 0, 2, 1, 0]
-sort012(arr)
+sort(arr)
 print(arr) 
 # Test case 2
 arr1 = [2, 0, 1, 2, 0, 1, 0, 2, 1]
-sort012(arr1)
+sort(arr1)
 print(arr1) 
 
 # Test case 3
 arr2 = [1, 2, 0, 1, 2, 0, 1, 2, 0]
-sort012(arr2)
+sort(arr2)
 print(arr2) 
 
 # Test case 4
 arr3 = [1, 0, 2]
-sort012(arr3)
+sort(arr3)
 print(arr3) 
 
 # Test case 5
 arr4 = [2, 2, 2, 2, 2]
-sort012(arr4)
+sort(arr4)
 print(arr4) 
 
 # Test case 6
 arr5 = [0, 0, 0, 0]
-sort012(arr5)
+sort(arr5)
 print(arr5) 
 
